@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83403bf8-5341-4213-a82f-c421c3aa9197" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/.idea/ultimatefit.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/.skipPythonDeployment" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/azuredeploy.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/bin/AzureSetup.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/bin/Microsoft.PythonTools.AzureSetup.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/bin/Microsoft.PythonTools.AzureSetup.exe.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/bin/Microsoft.PythonTools.WebRole.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/bin/wfastcgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/hostingstart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ptvs_virtualenv_proxy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/templates/exercise.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefit/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefit/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefit/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefit/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/ultimatefitbackend/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/web.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ultimatefit/web.debug.config" afterPath="" />
-    </list>
+    <list default="true" id="83403bf8-5341-4213-a82f-c421c3aa9197" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -558,7 +523,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -566,7 +531,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@ultimatefit" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
