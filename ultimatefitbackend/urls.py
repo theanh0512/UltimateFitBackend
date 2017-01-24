@@ -18,4 +18,6 @@ from . import views
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'exercise/(?P<id>[0-9]+)$',views.exercise,name='exercise'),
+    url(r'categories-list$', views.categories_list, name='categories_list'),
+    url(r'exercises-list$', views.exercises_list, name='exercises_list'),
 ]
