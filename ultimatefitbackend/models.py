@@ -23,3 +23,10 @@ class Exercise(models.Model):
 
     def __str__(self):
         return self.name
+
+    def dump(self):
+        return {"e"+str(self.pk):{'name':self.name,
+                        'description':self.description,
+                        'image':self.image,
+                        'video':self.video,
+                        'category':self.category.pk}}
