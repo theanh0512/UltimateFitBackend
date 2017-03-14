@@ -25,7 +25,7 @@ class Exercise(models.Model):
         return self.name
 
     def dump(self):
-        return {"e"+str(self.pk):{'name':self.name,
+        return {"exercise":{'name':self.name,
                         'description':self.description,
                         'image':self.image,
                         'video':self.video,

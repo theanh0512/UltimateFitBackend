@@ -48,7 +48,7 @@ def exercises_list(request,page):
         # If page is out of range (e.g. 9999), deliver last page of results.
         exercises = paginator.page(paginator.num_pages)
 
-    data = {'obj1': [o.dump() for o in exercises], 'page': paginator.num_pages}
+    data = {'array': [o.dump() for o in exercises], 'page': paginator.num_pages}
     jsonResult = json.dumps(data)
 
     return HttpResponse(jsonResult)
