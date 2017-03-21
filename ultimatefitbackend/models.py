@@ -4,7 +4,7 @@ from django.db import models
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=32)
+    name = models.CharField(max_length=50)
     image = models.TextField()
 
     def __str__(self):
@@ -15,7 +15,7 @@ class Category(models.Model):
 
 
 class Exercise(models.Model):
-    name = models.CharField(max_length=32)
+    name = models.CharField(max_length=100)
     description = models.TextField()
     image = models.TextField()
     video = models.TextField()
