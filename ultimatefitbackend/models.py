@@ -18,6 +18,7 @@ class Exercise(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
     image = models.TextField()
+    image2 = models.TextField()
     video = models.TextField()
     category = models.ForeignKey(Category)
 
@@ -28,5 +29,6 @@ class Exercise(models.Model):
         return {"exercise":{'name':self.name,
                         'description':self.description,
                         'image':self.image,
+                        'image2': self.image2,
                         'video':self.video,
                         'category':self.category.pk}}
