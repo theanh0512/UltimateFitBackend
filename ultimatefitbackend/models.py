@@ -3,7 +3,15 @@ from __future__ import unicode_literals
 from django.db import models
 
 
-class Category(models.Model):
+class BaseModel(models.Model):
+    created_datetime = models.DateTimeField(auto_now_add=True)
+    modified_datetime = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        abstract = True
+
+
+class Category(BaseModel):
     name = models.CharField(max_length=50)
     image = models.TextField()
 
@@ -14,7 +22,7 @@ class Category(models.Model):
         verbose_name_plural = 'categories'
 
 
-class Exercise(models.Model):
+class Exercise(BaseModel):
     name = models.CharField(max_length=100)
     description = models.TextField()
     image = models.TextField()
@@ -26,9 +34,9 @@ class Exercise(models.Model):
         return self.name
 
     def dump(self):
-        return {"exercise":{'name':self.name,
-                        'description':self.description,
-                        'image':self.image,
-                        'image2': self.image2,
-                        'video':self.video,
-                        'category':self.category.pk}}
+        return {"exercise": {'name': self.name,
+                             'description': self.description,
+                             'image': self.image,
+                             'image2': self.image2,
+                             'video': self.video,
+                             'category': self.category.pk}}
