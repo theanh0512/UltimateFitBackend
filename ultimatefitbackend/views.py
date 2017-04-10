@@ -27,8 +27,12 @@ def exercise(request, id):
     return HttpResponse(template.render(context, request))
 
 
-def categories_list(request):
-    response_data = serializers.serialize('python', Category.objects.all())
+def categories_list(request, date):
+    date = float(date)
+    modified_date_time = datetime.datetime.fromtimestamp(date / 1000)
+    today = datetime.date.today() + datetime.timedelta(days=1)
+    response_data = serializers.serialize('python',
+                                          Category.objects.filter(modified_datetime__range=[modified_date_time, today]))
     return JsonResponse(response_data, safe=False)
 
 
