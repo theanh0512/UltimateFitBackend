@@ -34,9 +34,12 @@ class Exercise(BaseModel):
         return self.name
 
     def dump(self):
+        create_on = self.created_datetime.strftime('%Y-%m-%d %H:%M:%S')
+        modified_on = self.modified_datetime.strftime('%Y-%m-%d %H:%M:%S')
         return {"exercise": {'name': self.name,
                              'description': self.description,
                              'image': self.image,
                              'image2': self.image2,
                              'video': self.video,
-                             'category': self.category.pk}}
+                             'category': self.category.pk,
+                             'modified_datetime': modified_on}}
