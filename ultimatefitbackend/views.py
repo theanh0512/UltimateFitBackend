@@ -60,7 +60,7 @@ def exercises_list_with_date(request, page, date):
     page = int(page)
     date = float(date)
     modified_date_time = datetime.datetime.fromtimestamp(date / 1000)
-    today = datetime.date.today()
+    today = datetime.date.today() + datetime.timedelta(days=1)
     exercise_list = Exercise.objects.filter(modified_datetime__range=[modified_date_time, today])
     paginator = Paginator(exercise_list, 10)  # Show 10 exercises per page
 
